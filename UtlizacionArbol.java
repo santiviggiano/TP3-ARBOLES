@@ -28,8 +28,7 @@ public class UtilizacionArbol {
         return contarHojasRec(nodo.izquierdo) + contarHojasRec(nodo.derecho);
     }
 
-    // ---------- sumaNodos ----------
-    // Suma de todos los valores. Complejidad: O(n).
+    
     public static int sumaNodos(ArbolBinarioBusqueda a) {
         return sumaRec(a.getRaiz());
     }
